@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>TicTacToe</title>
+       <link rel="stylesheet" href="style.css">
+       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+       <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jersey+15&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Nabla&family=Nosifer&family=Orbitron:wght@400..900&family=Roboto&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Wallpoet&display=swap" rel="stylesheet">
+
+</head>
+<body class="h-screen w-full bg-gradient-to-br from-[#1e293b] via-[#334155] to-[#64748b]">
+       
+       <div class="wrapper flex flex-col justify-center items-center gap-[10rem]">
+              <p class="game-info text-2xl bg-gray-500/50 py-2 px-7 border border-gray-300 mt-9 rounded-xl text-orange-400"></p>
+       
+
+              <div class="tic-tac-toe grid grid-cols-3 bg-slate-300/10 p-4 border border-slate-400/70 rounded-lg w-[90%] max-w-[20rem] aspect-square">
+                     <div class="box cursor-pointer border-r border-b border-white text-center flex items-center justify-center text-2xl font-bold aspect-square w-full h-full"></div>
+                     <div class="box cursor-pointer border-r border-b border-white text-center flex items-center justify-center text-2xl font-bold aspect-square w-full h-full"></div>
+                     <div class="box cursor-pointer border-b border-white text-center flex items-center justify-center text-2xl font-bold aspect-square w-full h-full"></div>
+                     <div class="box cursor-pointer border-r border-b border-white text-center flex items-center justify-center text-2xl font-bold aspect-square w-full h-full"></div>
+                     <div class="box cursor-pointer border-r border-b border-white text-center flex items-center justify-center text-2xl font-bold aspect-square w-full h-full"></div>
+                     <div class="box cursor-pointer border-b border-white text-center flex items-center justify-center text-2xl font-bold aspect-square w-full h-full"></div>
+                     <div class="box cursor-pointer border-r border-white text-center flex items-center justify-center text-2xl font-bold aspect-square w-full h-full"></div>
+                     <div class="box cursor-pointer border-r border-white text-center flex items-center justify-center text-2xl font-bold aspect-square w-full h-full"></div>
+                     <div class="box cursor-pointer text-center flex items-center justify-center text-2xl font-bold aspect-square w-full h-full"></div>
+              </div>
+
+
+              <button class="btn text-xl text-orange-400 py-2 px-3 hidden rounded-md bg-gray-500/70 cursor-pointer">New Game 💀</button>
+
+       </div>
+
+       <script src="script.js"></script>
+</body>
+</html>
